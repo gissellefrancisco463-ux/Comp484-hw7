@@ -22,11 +22,6 @@ body {
     line-height: 1.6;
 }
 
-header, main, footer {
-    max-width: 900px;
-    margin: 0 auto;
-}
-
 h1, h2{
     font-family: "Lora", Georgia, serif;
     font-weight: 600;
@@ -94,13 +89,16 @@ a:hover{
     text-decoration-thickness: 2px;
 }
 
+.content-wrap{
+    width: 950px;
+    margin: 0 auto;
+}
+
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
-    background: #dce6d5;
+    background-color: #dce6d5;
     padding: 32px;
-    border-radius: 20px;
-    text-align: center;
 }
 
 header img {
