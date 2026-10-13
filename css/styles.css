@@ -14,7 +14,6 @@
 body {
     background: #EEF3EA;
     margin: 0;
-    padding: 20px;
     color: #2f4538;
     font-family: "Nunito Sans", Arial, Sans-serif;
     font-size: 16px;
@@ -50,7 +49,6 @@ p {
 
 section {
     margin: 24px 0;
-    padding: 28px;
     border: 1px solid #2f4538;
     border-radius: 20px;
 
@@ -92,13 +90,13 @@ a:hover{
 .content-wrap{
     max-width: 950px;
     margin: 0 auto;
+    padding: 50px;
 }
 
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
     background-color: #dce6d5;
-    padding: 32px;
 }
 
 header img {
@@ -126,9 +124,17 @@ footer .content-wrap > div {
     justify-content: center;
     gap: 12px 20px;
 }
+footer {
+    text-align: center;
+}
 
 footer p{
     margin-top: 20px;
+}
+
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
 }
 
 /* Work Experience
