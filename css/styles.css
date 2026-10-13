@@ -91,6 +91,7 @@ a:hover{
     max-width: 950px;
     margin: 0 auto;
     padding: 50px;
+    overflow: hidden;
 }
 
 /* Header & Footer 
@@ -99,13 +100,18 @@ header, footer {
     background-color: #dce6d5;
 }
 
-header img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+.profile-img {
+    width: 300px;
+    height: auto;
     border-radius: 50%;
     border: 2px solid #ffff;
+    float:left;
+    margin-right: 30px;
 
+}
+
+header h1, header h2 {
+    margin: 0;
 }
 
 header h2{
@@ -118,12 +124,6 @@ header p {
     margin: 16px auto;
 }
 
-footer .content-wrap > div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px 20px;
-}
 footer {
     text-align: center;
 }
