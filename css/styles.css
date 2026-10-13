@@ -90,7 +90,7 @@ a:hover{
 }
 
 .content-wrap{
-    width: 950px;
+    max-width: 950px;
     margin: 0 auto;
 }
 
@@ -120,7 +120,7 @@ header p {
     margin: 16px auto;
 }
 
-footer div {
+footer .content-wrap > div {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
