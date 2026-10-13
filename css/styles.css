@@ -98,6 +98,19 @@ a:hover{
     overflow: hidden;
 }
 
+.column-narrow{
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide{
+    width: 70%; 
+    float: left;
+    min-height: 225px;
+}
+
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
@@ -105,13 +118,9 @@ header, footer {
 }
 
 .profile-img {
-    width: 300px;
     height: auto;
     border-radius: 50%;
     border: 2px solid #ffff;
-    float:left;
-    margin-right: 30px;
-
 }
 
 header h1, header h2 {
