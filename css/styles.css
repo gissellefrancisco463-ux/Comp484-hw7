@@ -105,6 +105,14 @@ a:hover{
     min-height: 225px;
 }
 
+.project-item{
+    overflow: hidden;
+}
+
+.work-experience-item{
+    overflow: hidden;
+}
+
 /* Header & Footer 
 ------------------------------------*/
 header, footer {
@@ -114,7 +122,6 @@ header, footer {
 .profile-img {
     height: auto;
     border-radius: 50%;
-    border: 2px solid #ffff;
 }
 
 header h1, header h2 {
