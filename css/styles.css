@@ -105,6 +105,13 @@ a:hover{
     min-height: 225px;
 }
 
+.column-narrow h3{
+    margin-top: 0;
+}
+
+.column-wide ul{
+    margin-top: 0;
+}
 .project-item{
     overflow: hidden;
 }
@@ -124,7 +131,7 @@ header, footer {
     border-radius: 50%;
 }
 
-header h1, header h2 {
+header h1, header h2{
     margin: 0;
 }
 
